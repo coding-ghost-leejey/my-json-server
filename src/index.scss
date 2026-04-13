@@ -1,0 +1,49 @@
+@import 'bootstrap/scss/bootstrap';
+
+* {
+    margin:0;padding:0;box-sizing:border-box;
+}
+
+ul,ol {list-style:none}
+
+img {
+    max-width:100%;
+}
+
+@mixin flex($j:space-between, $g:null, $a:center, $d:row) {
+    display:flex;
+    justify-content:$j;
+    gap:$g;
+    align-items:$a;
+    flex-direction:$d;
+}
+header {
+    width:100%;max-width:1000px;
+    margin:0 auto;
+    @include flex; 
+}
+
+
+h1 {
+    img {
+        width:200px;
+    }
+}
+.login-button {
+    @include flex(flex-end, 12px) 
+}
+
+nav {
+    ul {
+        @include flex(center, 20px)
+    }
+}
+
+.itemList {
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.item { 
+    @include flex($d:column,$g:20px)
+}

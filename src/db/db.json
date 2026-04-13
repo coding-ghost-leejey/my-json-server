@@ -1,0 +1,154 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "img": "https://picsum.photos/300/300?random=1",
+      "category": "MD's choice",
+      "title": "귀여운 곰돌이 인형",
+      "price": 12000,
+      "choice": true,
+      "new": true,
+      "size": ["s", "m"]
+    },
+    {
+      "id": 2,
+      "img": "https://picsum.photos/300/300?random=2",
+      "category": "Hot item",
+      "title": "토끼 키링",
+      "price": 8000,
+      "choice": false,
+      "new": true,
+      "size": ["s", "m", "l"]
+    },
+    {
+      "id": 3,
+      "img": "https://picsum.photos/300/300?random=3",
+      "category": "MZ style",
+      "title": "고양이 머그컵",
+      "price": 15000,
+      "choice": true,
+      "new": false,
+      "size": ["s", "m"]
+    },
+    {
+      "id": 4,
+      "img": "https://picsum.photos/300/300?random=4",
+      "category": "MD's choice",
+      "title": "강아지 스티커 세트",
+      "price": 5000,
+      "choice": false,
+      "new": true,
+      "size": ["s", "m", "l"]
+    },
+    {
+      "id": 5,
+      "img": "https://picsum.photos/300/300?random=5",
+      "category": "Hot item",
+      "title": "펭귄 인형",
+      "price": 18000,
+      "choice": true,
+      "new": false,
+      "size": ["s", "m"]
+    },
+    {
+      "id": 6,
+      "img": "https://picsum.photos/300/300?random=6",
+      "category": "MZ style",
+      "title": "햄스터 파우치",
+      "price": 13000,
+      "choice": false,
+      "new": true,
+      "size": ["s", "m", "l"]
+    },
+    {
+      "id": 7,
+      "img": "https://picsum.photos/300/300?random=7",
+      "category": "MD's choice",
+      "title": "개구리 볼펜",
+      "price": 4000,
+      "choice": true,
+      "new": false,
+      "size": ["s", "m"]
+    },
+    {
+      "id": 8,
+      "img": "https://picsum.photos/300/300?random=8",
+      "category": "Hot item",
+      "title": "곰돌이 노트",
+      "price": 9000,
+      "choice": false,
+      "new": true,
+      "size": ["s", "m", "l"]
+    },
+    {
+      "id": 9,
+      "img": "https://picsum.photos/300/300?random=9",
+      "category": "MZ style",
+      "title": "고양이 폰케이스",
+      "price": 17000,
+      "choice": true,
+      "new": true,
+      "size": ["s", "m"]
+    },
+    {
+      "id": 10,
+      "img": "https://picsum.photos/300/300?random=10",
+      "category": "MD's choice",
+      "title": "강아지 쿠션",
+      "price": 22000,
+      "choice": false,
+      "new": false,
+      "size": ["s", "m", "l"]
+    },
+    {
+      "id": 11,
+      "img": "https://picsum.photos/300/300?random=11",
+      "category": "Hot item",
+      "title": "토끼 무드등",
+      "price": 25000,
+      "choice": true,
+      "new": true,
+      "size": ["s", "m"]
+    },
+    {
+      "id": 12,
+      "img": "https://picsum.photos/300/300?random=12",
+      "category": "MZ style",
+      "title": "펭귄 컵",
+      "price": 14000,
+      "choice": false,
+      "new": false,
+      "size": ["s", "m", "l"]
+    },
+    {
+      "id": 13,
+      "img": "https://picsum.photos/300/300?random=13",
+      "category": "MD's choice",
+      "title": "햄스터 스티커",
+      "price": 6000,
+      "choice": true,
+      "new": true,
+      "size": ["s", "m"]
+    },
+    {
+      "id": 14,
+      "img": "https://picsum.photos/300/300?random=14",
+      "category": "Hot item",
+      "title": "개구리 컵",
+      "price": 11000,
+      "choice": false,
+      "new": false,
+      "size": ["s", "m", "l"]
+    },
+    {
+      "id": 15,
+      "img": "https://picsum.photos/300/300?random=15",
+      "category": "MZ style",
+      "title": "곰돌이 에코백",
+      "price": 19000,
+      "choice": true,
+      "new": true,
+      "size": ["s", "m"]
+    }
+  ]
+}
