@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react' 
-import ItemCard from '../components/itemCard'
+import ItemCard from '../components/ItemCard'
 import { Container, Row,Col } from 'react-bootstrap'
 import { useSearchParams } from 'react-router-dom'
 
