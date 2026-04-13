@@ -11,7 +11,7 @@ const ProductAll = () => {
         let searchQuery =  query.get('q') || '';
         console.log('query :', searchQuery)
         let SERVER = 'https://my-json-server.typicode.com/coding-ghost-leejey/my-json-server/'
-        let url = `${SERVER}products?title:contains=${encodeURIComponent(searchQuery)}`;
+        let url = `${SERVER}products?title_like=${encodeURIComponent(searchQuery)}`;
  
         console.log('url :', url)
         let response = await fetch(url)
