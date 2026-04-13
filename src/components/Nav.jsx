@@ -20,6 +20,10 @@ const Nav = ({pass, setPass} ) => {
   }
 
   const search = (e) => {
+
+    // 한글 입력 중(조합 중)에 엔터를 눌렀을 때 이벤트가 두 번 발생하는 것을 방지합니다.
+    if (e.nativeEvent.isComposing) return;
+    
       if(e.key==="Enter") {
         let keyword =  e.target.value;
         navigate(`/?q=${encodeURIComponent(keyword)}`); 
