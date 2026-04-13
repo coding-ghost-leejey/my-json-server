@@ -22,7 +22,7 @@ const Nav = ({pass, setPass} ) => {
   const search = (e) => {
       if(e.key==="Enter") {
         let keyword =  e.target.value;
-        navigate(`/?q=${keyword}`)
+        navigate(`/?q=${encodeURIComponent(keyword)}`); 
         e.target.value ='';
       } 
   }
